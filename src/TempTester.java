@@ -19,7 +19,7 @@ public class TempTester {
         System.out.println(test1 + " in Fahrenheit is " + test1.DegreesF());
         System.out.println("-40 F is " + test2.DegreesC() + " C");
         test1.setTemp(56.155);
-        System.out.println("temp 1 is " + test1);//default toString replaced by mine apparently. cool.
+        System.out.println("temp 1 is " + test1);//default toString replaced by mine, apparently. cool.
         test1.setScale(Temperature.system.F);
 
         test1.setScale(Temperature.system.F);
